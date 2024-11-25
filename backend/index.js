@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require('express')
 const cors = require('cors')
 
@@ -18,4 +19,4 @@ const PetRoutes = require('./routes/PetRoutes')
 app.use('/users', UserRoutes)
 app.use('/pets', PetRoutes)
 
-app.listen(5000)
+app.listen(process.env.PORT)

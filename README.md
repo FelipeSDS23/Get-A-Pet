@@ -104,8 +104,24 @@ O frontend estará disponível em `http://localhost:3000`.
 
 ### 4. Testando a aplicação
 
-Após rodar o backend e o frontend, acesse o frontend no seu navegador (`http://localhost:3000`).
+Após rodar o backend e o frontend, acesse o frontend no seu navegador (http://localhost:3000).
 
-- Crie uma conta de usuário ou faça login.
-- Cadastre um pet disponível para adoção.
-- Explore a lista de pets e adote um pet de outro usuário.
+Por padrão, a aplicação vem sem nenhum usuário ou pet cadastrado. Para testar a aplicação de forma completa, siga as instruções abaixo:
+
+1 - Criação de dois usuários:
+  Acesse a página de cadastro/login e crie dois novos usuários utilizando o formulário de cadastro. Um dos usuários será responsável por cadastrar um pet, e o outro será responsável por adotar o pet.
+
+2 - Cadastro de um pet:
+  Após o login do primeiro usuário, acesse a página de cadastro de pet.
+  Adicione um pet, fornecendo informações como nome, idade, peso e foto.
+
+3 - Exploração e adoção de pets:
+  Faça login com o segundo usuário.
+  Acesse a página inicial para visualizar a lista de pets disponíveis para adoção.
+  Clique sobre o pet cadastrado pelo primeiro usuário para visualizar seus detalhes e adote-o.
+
+4 - Confirmação de adoção:
+  O primeiro usuário (dono do pet) deverá acessar a lista de pets cadastrados e confirmar a adoção do pet.
+  A adoção será finalizada após essa confirmação, completando o processo.
+  
+  Ao realizar esses passos, você simulará interações completas, como o cadastro de dois usuários, o cadastro de um pet e a adoção do pet de um usuário pelo outro.

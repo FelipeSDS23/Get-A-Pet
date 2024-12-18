@@ -4,12 +4,20 @@ Get A Pet - README
 
 Get A Pet é uma plataforma online onde usuários podem se cadastrar para postar pets disponíveis para adoção, ou adotar pets de outros usuários. Este projeto foi desenvolvido utilizando **Node.js** para a criação da API, **React** para o frontend e **MongoDB** como banco de dados para armazenar as informações dos usuários e dos pets.
 
+<img src="./readme-prints/print-1" alt="Site">
+
 ### Funcionalidades:
 - Cadastro de usuários (com autenticação).
+<img src="./readme-prints/print-2" alt="Site">
 - Publicação de pets disponíveis para adoção.
+<img src="./readme-prints/print-3" alt="Site">
 - Navegação por pets disponíveis para adoção.
+<img src="./readme-prints/print-1" alt="Site">
 - Funcionalidade de adoção de pets.
-- Visualização de detalhes de cada pet (nome, idade, raça, descrição, foto).
+<img src="./readme-prints/print-4" alt="Site">
+<img src="./readme-prints/print-5" alt="Site">
+<img src="./readme-prints/print-6" alt="Site">
+- Visualização de detalhes de cada pet (nome, idade, foto).
 
 ## Tecnologias Utilizadas
 
